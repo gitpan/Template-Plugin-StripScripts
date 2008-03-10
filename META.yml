@@ -1,10 +1,11 @@
 --- 
 abstract: TT plugin to filter HTML against XSS
-author: Kentaro Kuribayashi <kentaro@cpan.org>
+author: 
+  - Kentaro Kuribayashi <kentaro@cpan.org>
 build_requires: 
   Test::More: 0
 distribution_type: module
-generated_by: Module::Install version 0.65
+generated_by: Module::Install version 0.68
 license: MIT
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -14,4 +15,7 @@ no_index:
   directory: 
     - inc
     - t
-version: 0.01
+requires: 
+  HTML::StripScripts::Parser: 0.99
+  Template: 0
+version: 0.02

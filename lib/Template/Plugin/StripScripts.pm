@@ -5,7 +5,7 @@ use HTML::StripScripts::Parser;
 
 use base qw (Template::Plugin::Filter);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub init {
     my $self = shift;
@@ -86,7 +86,7 @@ Kentaro Kuribayashi E<lt>kentaro@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE (The MIT License)
 
-Copyright (c) 2007, Kentaro Kuribayashi E<lt>kentaro@cpan.orgE<gt>
+Copyright (c) 2007 - 2008, Kentaro Kuribayashi E<lt>kentaro@cpan.orgE<gt>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

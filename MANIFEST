@@ -22,4 +22,3 @@ META.yml
 README
 t/00_compile.t
 t/01_stripscripts.t
-t/99_pod.t
